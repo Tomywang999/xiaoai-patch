@@ -1,7 +1,6 @@
 PACKAGE_NAME="libsodium"
 PACKAGE_VERSION="1.0.19"
-PACKAGE_SRC="https://github.com/jedisct1/libsodium/archive/refs/tags/${PACKAGE_VERSION}.tar.gz"
-
+PACKAGE_SRC="https://github.com/jedisct1/libsodium/releases/download/${PACKAGE_VERSION}/libsodium-${PACKAGE_VERSION}.tar.gz
 preconfigure_package() {
   autoreconf -fi
 }
